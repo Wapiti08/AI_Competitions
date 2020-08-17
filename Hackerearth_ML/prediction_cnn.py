@@ -69,7 +69,7 @@ y_2_pred = clf_2.predict(test_x)
 # model = Sequential()
 # model.add(layers.Dense(32, input_dim=input_dim, activation = 'relu'))
 # model.add(layers.Dense(10, input_dim=input_dim, activation = 'relu'))
-# model.add(layers.Dense(1, activation='sigmoid'))
+# model.add(layers.Dense(1, activation='softmax'))
 # model.compile(loss='mse', metrics=['accuracy'], optimizer='adam')
 
 # model.fit(train_x, train_y_2, epochs=10, batch_size=32)
